@@ -41,8 +41,8 @@ packages() {
 		# https://github.com/librespot-org/librespot does not regularly or
 		# really ever update their dependencies on released versions.
 		# https://github.com/librespot-org/librespot/pull/1068
-		echo "Get https://github.com/JasonLG1979/librespot/tree/raspotify..."
-		git clone https://github.com/JasonLG1979/librespot
+		echo "Get https://github.com/RSKriegs/librespot/tree/raspotify..."
+		git clone https://github.com/RSKriegs/librespot
 		cd librespot
 		git checkout raspotify
 		cd /mnt/raspotify
