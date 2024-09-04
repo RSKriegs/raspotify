@@ -22,6 +22,12 @@ RUN mkdir /build \
     && apt-get update \
     && apt-get -y upgrade \
     && apt-get install -y --no-install-recommends \
+        gcc \
+        g++ \
+        binutils \
+        libstdc++-10-dev-armhf-cross:arm64 \
+        binutils-arm-linux-gnueabihf:arm64 \
+        libgcc-10-dev-armhf-cross:arm64 \
         build-essential \
         libasound2-dev \
         libpulse-dev \
