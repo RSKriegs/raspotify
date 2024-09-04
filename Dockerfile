@@ -25,9 +25,9 @@ RUN mkdir /build \
         gcc \
         g++ \
         binutils \
-        libstdc++-10-dev-armhf-cross:arm64 \
+        libstdc++-10-dev-arm64-cross \
         binutils-arm-linux-gnueabihf:arm64 \
-        libgcc-10-dev-armhf-cross:arm64 \
+        libgcc-10-dev-arm64-cross \
         build-essential \
         libasound2-dev \
         libpulse-dev \
