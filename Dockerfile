@@ -1,4 +1,4 @@
-FROM rust:bullseye
+FROM docker://rust:bullseye
 
 ENV INSIDE_DOCKER_CONTAINER=1 \
     DEBIAN_FRONTEND=noninteractive \
